@@ -1,0 +1,73 @@
+* {
+    outline: 2px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #1F2937;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.header-links a, .hero p {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+.info-container{
+    height: 140px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.info-container h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    border: lightblue;
+}
+.info-container p {
+    margin:10px 10px 10px 10px;
+}
+.quote-container {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light-italic;
+}
+.signup-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+   background-color: #3882f6;
+   color: #f9faf8;
+}
+.btn-banner {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8;
+}
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
